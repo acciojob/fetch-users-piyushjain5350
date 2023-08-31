@@ -1,1 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.heading-cc{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th{
+    background-color: black;
+    color: white;
+}
 
