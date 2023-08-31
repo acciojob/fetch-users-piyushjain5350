@@ -29,6 +29,9 @@ const Display=()=>{
                     </thead>
                     <tbody>
                         {
+                            !fetchData&& <li>No data found to display.</li>
+                        }
+                        {
                             fetchData&&fetchData.map(item=>(
                                 <tr key={item.id}>
                                     <td>{item.first_name}</td>
